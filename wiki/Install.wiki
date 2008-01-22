@@ -9,7 +9,7 @@ Installing stikked at the moment isn't exactly trivial in future releases there 
 
 2. Make sure your server supports PHP5 (PHP4 may work but it's not tested) and MySQL.
 
-3. First create a user and database for Stikked using a tool like phpMyAdmin or the MySQL Administration CLI.
+3. First create a *user* and *database* for Stikked using a tool like phpMyAdmin or the MySQL Administration CLI.
 
 4. Run the following command to setup the database structure;
 
