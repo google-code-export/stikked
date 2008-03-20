@@ -15,7 +15,7 @@ Installing stikked at the moment isn't exactly trivial in future releases there 
 
 4. Run the following command to setup the database structure;
 {{{
-	mysql -u username -p databasename < mysql.sql
+mysql -u username -p databasename < mysql.sql
 }}}	
 You will be prompted for the password enter it, and it will create the table structure.
 
@@ -26,12 +26,14 @@ You will be prompted for the password enter it, and it will create the table str
 
 6. You can configure additional options in /system/application/config/stikked.php
 
-7. Configure the cron for auto-expiration (*nix only):
+7. Configure the cron for auto-expiration (`*`nix only):
 	7.1 Set the key for cron in /system/application/config/stikked.php.
+
 	7.2 Open a shell and run crontab -e and enter:
 	{{{
-	00, 30 * * * * curl --silent --compressed http://example.com/cron/key > /dev/null 2>&1
+00, 30 * * * * curl --silent --compressed http://example.com/cron/key > /dev/null 2>&1
 	}}}
+
 	7.3 Save and pray.
 
 8. You should be up and running now, post any bugs to http://code.google.com/p/stikked.
