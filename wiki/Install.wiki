@@ -36,4 +36,6 @@ You will be prompted for the password enter it, and it will create the table str
 
 	7.3 Save and pray.
 
-8. You should be up and running now, post any bugs to http://code.google.com/p/stikked.
+8. Remember to edit .htaccess you need to change base_url to the same one specified in config.php.
+
+9. You should be up and running now, post any bugs to http://code.google.com/p/stikked.
