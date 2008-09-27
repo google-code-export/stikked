@@ -6,6 +6,8 @@ _Revision 47_
 
   * Fixed a bug where the libraries were not being loaded correctly on case-sensitive file systems.
 
+----
+
 ===Stikked 0.5.2===
 _Revision 38_
 
