@@ -2,7 +2,7 @@
 _Due to my incompetence, There's only changelog history from version 0.4. -- Ben_
 
 ===Stikked0.5.3===
-_Revision 44_
+_Revision 47_
 
   * Fixed a bug where the libraries were not being loaded correctly on case-sensitive file systems.
 
