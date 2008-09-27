@@ -1,6 +1,11 @@
 #labels Featured
 _Due to my incompetence, There's only changelog history from version 0.4. -- Ben_
 
+===Stikked0.5.3===
+_Revision 44_
+
+  * Fixed a bug where the libraries were not being loaded correctly on case-sensitive file systems.
+
 ===Stikked 0.5.2===
 _Revision 38_
 
